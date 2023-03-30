@@ -1,0 +1,78 @@
+<view class="flex-col page">
+  <view class="flex-row justify-center items-center group space-x-9">
+    <view class="flex-col justify-start items-center image-wrapper">
+      <image
+        class="image"
+        src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/642291f95a7e3f0310a8e176/6422922399e5b100119c81e9/16799873969724823999.png"
+      />
+    </view>
+    <view class="flex-col justify-start"><text class="font_1 text">May 2021</text></view>
+    <view class="flex-col justify-start items-center image-wrapper">
+      <image
+        class="image_2"
+        src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/642291f95a7e3f0310a8e176/6422922399e5b100119c81e9/16799873973362534058.png"
+      />
+    </view>
+  </view>
+  <view class="flex-row equal-division space-x-12">
+    <view class="flex-col items-center equal-division-item space-y-18">
+      <text class="font_2">Tue</text>
+      <text class="font_3 text_3">11</text>
+    </view>
+    <view class="flex-col items-center equal-division-item space-y-18">
+      <text class="font_2">Wed</text>
+      <text class="font_3">12</text>
+    </view>
+    <view class="flex-col items-center equal-division-item space-y-18">
+      <text class="font_2">Thus</text>
+      <text class="font_3">13</text>
+    </view>
+    <view class="flex-col items-center equal-division-item_2 space-y-18">
+      <text class="font_2 text_2">Fri</text>
+      <text class="font_3 text_4">14</text>
+    </view>
+    <view class="flex-col items-center equal-division-item space-y-18">
+      <text class="font_2">Sat</text>
+      <text class="font_3">15</text>
+    </view>
+    <view class="flex-col items-center equal-division-item space-y-18">
+      <text class="font_2">Sun</text>
+      <text class="font_3">16</text>
+    </view>
+  </view>
+  <view class="flex-row equal-division_2 space-x-20">
+    <view class="flex-col items-start equal-division-item_3 space-y-18">
+      <text class="font_1 text_5">Attitude Spin</text>
+      <image
+        class="image_3"
+        src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/642291f95a7e3f0310a8e176/6422922399e5b100119c81e9/16799873969637627406.png"
+      />
+    </view>
+    <view class="flex-col items-start equal-division-item_3 space-y-18">
+      <text class="font_1 text_5">Fireman Cross Leg</text>
+      <image
+        class="image_3"
+        src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/642291f95a7e3f0310a8e176/6422922399e5b100119c81e9/16799873969650829575.png"
+      />
+    </view>
+  </view>
+  <view class="flex-col justify-start relative group_2">
+    <view class="flex-row justify-between section">
+      <image
+        class="image_4"
+        src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/642291f95a7e3f0310a8e176/6422922399e5b100119c81e9/b00399588057b26d64316c71877fd1a9.png"
+        bindtap="onClick"
+      />
+      <image
+        class="image_4 image_5"
+        src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/642291f95a7e3f0310a8e176/6422922399e5b100119c81e9/7182052e3f7fae8aa869272507f1ad9d.png"
+      />
+    </view>
+    <view class="flex-col justify-start items-center image-wrapper_2 pos" bindtap="onClick_1">
+      <image
+        class="image_4"
+        src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/642291f95a7e3f0310a8e176/6422922399e5b100119c81e9/16799873973266008448.png"
+      />
+    </view>
+  </view>
+</view>

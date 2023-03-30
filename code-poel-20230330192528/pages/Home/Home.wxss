@@ -1,0 +1,113 @@
+.page {
+  background-color: #ffffff;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.group_1 {
+  padding-top: 68rpx;
+  overflow-y: auto;
+}
+.group {
+  padding-top: 136rpx;
+}
+.list {
+  margin: 0 48rpx;
+}
+.grid {
+  height: 1354rpx;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 50rpx;
+  column-gap: 42rpx;
+}
+.grid-item {
+  padding: 28rpx 8rpx 46rpx;
+  border-radius: 40rpx;
+  border: solid 6rpx #edeff7;
+}
+.space-y-22 > view:not(:first-child),
+.space-y-22 > text:not(:first-child),
+.space-y-22 > image:not(:first-child) {
+  margin-top: 44rpx;
+}
+.font_1 {
+  font-size: 28rpx;
+  font-family: Poppins;
+  line-height: 30rpx;
+  font-weight: 700;
+  color: #52668d;
+}
+.text_2 {
+  margin-left: 12rpx;
+}
+.image_2 {
+  margin-left: 12rpx;
+  width: 260rpx;
+  height: 260rpx;
+}
+.group_2 {
+  margin: -198rpx 0 -204rpx;
+  filter: drop-shadow(0px -8rpx 20rpx #0000000d);
+  height: 264rpx;
+}
+.fixed {
+  position: fixed;
+  right: 46rpx;
+  top: 68rpx;
+}
+.group_3 {
+  padding: 0 4rpx;
+  width: 656rpx;
+}
+.text {
+  color: #293032;
+  font-size: 48rpx;
+  font-family: SF Pro Display;
+  font-weight: 700;
+  line-height: 44rpx;
+}
+.image {
+  border-radius: 50%;
+  width: 88rpx;
+  height: 88rpx;
+}
+.fixed_2 {
+  position: fixed;
+  left: 318rpx;
+  top: 1360rpx;
+}
+.image_3 {
+  width: 48rpx;
+  height: 48rpx;
+}
+.section {
+  padding: 46rpx 88rpx 110rpx;
+  filter: drop-shadow(0px 102rpx 12rpx #8e7e7e0d);
+  background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/642291f95a7e3f0310a8e176/6422922399e5b100119c81e9/16799873978245198543.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.button_LBS {
+  padding: 32rpx 32rpx !important;
+  width: 112rpx;
+  border-radius: 56rpx !important;
+  background-color: #92a3fd;
+  filter: drop-shadow(0px 2rpx 22rpx #0000000f);
+  border: unset !important;
+  height: 112rpx !important;
+}
+.button_LBS .van-button__text {
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+van-button {
+  display: flex;
+}

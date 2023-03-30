@@ -1,0 +1,53 @@
+<view class="flex-col page">
+  <view class="flex-col flex-auto group_1">
+    <view class="flex-col justify-start group">
+      <view class="list grid">
+        <view
+          class="flex-col items-start grid-item space-y-22"
+          wx:key="*this"
+          wx:for-item="item"
+          wx:for-index="i"
+          wx:for="{{list_TnoS5kqg}}"
+        >
+          <text class="font_1 text_2">Attitude Spin</text>
+          <image
+            class="image_2"
+            src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/642291f95a7e3f0310a8e176/6422922399e5b100119c81e9/16799873969637627406.png"
+          />
+        </view>
+      </view>
+    </view>
+    <view class="shrink-0 relative group_2"></view>
+    <view class="flex-row justify-between items-center fixed group_3">
+      <text class="text">Hi, Nam Duong</text>
+      <image
+        class="image"
+        src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/642291f95a7e3f0310a8e176/6422922399e5b100119c81e9/16799873977369166934.png"
+      />
+    </view>
+    <van-button
+      class="fixed_2"
+      color="#92a3fd"
+      lang="en"
+      bindtap="onClick"
+      custom-class="button_LBS"
+      bind:click="onClick_LBSHS397"
+    >
+      <image
+        class="image_3"
+        src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/642291f95a7e3f0310a8e176/6422922399e5b100119c81e9/16799873973266008448.png"
+      />
+    </van-button>
+  </view>
+  <view class="flex-row justify-between section">
+    <image
+      class="image_3"
+      src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/642291f95a7e3f0310a8e176/6422922399e5b100119c81e9/8c42a57b1400f5080d404a511759c98f.png"
+    />
+    <image
+      class="image_3"
+      src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/642291f95a7e3f0310a8e176/6422922399e5b100119c81e9/e5f51d08700cb2a24763e96b527b8182.png"
+      bindtap="onClick_1"
+    />
+  </view>
+</view>
